@@ -1,3 +1,10 @@
 body {
-    Background-color: red;
+    background-image: url("Background-4.jpg");
+}
+h1{
+    text-align: center;
+}
+a{
+    font-weight: bold;
+    color: red;
 }

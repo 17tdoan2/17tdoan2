@@ -5,30 +5,57 @@
             <title>About me</title>
             <link href="About.css" rel="stylesheet" type="text/css">
         </head>
+        <style>
+            body{
+                background-image: url(images/Background-4.jpg);
+            }
+        </style>
         <body>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a id="Link" href="index.html">Home</a>
+            <a id="Link" href="about.html">About</a>
+            <a id="Link" href="portfolio.html">Portfolio</a>
             <h1>It's me, Tien Doan, the senior</h1>
-            <img src="images/tien doan.gif"></img>
+            <img id="MyAvatar" src="images/tien doan.gif"></img>
             <h2>Classes Schedule</h2>
             <table>
                 <tr><th>Period</th><th>Classes</th></tr>
-                <tr><td>1</td><td>AP Psychology</td></tr>
-                <tr><td>2</td><td>English EWRC</td></tr>
-                <tr><td>3</td><td>AP Computer Science Prn</td></td></tr>    
-                <tr><td>4</td><td>AP Civics</td></tr>  
-                <tr><td>5</td><td>AP Physic C</td></tr>
-                <tr><td>6</td><td>AP Calculus AB</td></tr>
+                <tr><td id="period">1</td><td id="classes">AP Psychology</td></tr>
+                <tr><td id="period">2</td><td id="classes">English EWRC</td></tr>
+                <tr><td id="period">3</td><td id="classes">AP Computer Science Prn</td></td></tr>    
+                <tr><td id="period">4</td><td id="classes">AP Civics</td></tr>  
+                <tr><td id="period">5</td><td id="classes">AP Physic C</td></tr>
+                <tr><td id="period">6</td><td id="classes">AP Calculus AB</td></tr>
             </table>
-            <p> One of thing I like to do is to solve problems. Every day I would look up some physic problem and tried to solve them. Ske to listen and be taught my the Physic teachers. They makes the subject more enagaing and always have really cool demonstration. Other things that I do for side activities are reading books and watching anime.</p> </p>
+            <div class="container">
+                <header>
+                    <h1>Something About Me</h1>
+                </header>
+                <article>
+                    <p>One of thing I like to do is to solve problems. 
+                    Every day I would look up some physic problem and tried to solve them.
+                    In school I like to listen and be taught my the Physic teachers.
+                    They makes the subject more enagaing and always have really cool demonstration.
+                    Other things that I do for side activities are reading books and watching anime.</p>
+                </article>
             <h3>Hobbies</h3>
-            <p>Watching Anime</p>
-            <p>Martial Art</p>
-            <p>Explore The World of Physic</p>
-            <p>Playing RTS Games</p>
-            <p>Mentoring and Teaching People In Need</p>
-            <p>Reading War-Related Books</p>
+            <ul id="Bulletlist">
+            <li>Watching Anime</li>
+            <li>Martial Art</li>
+            <li>Explore The World of Physic</li>
+            <li>Playing RTS Games</li>
+            <li>Mentoring and Teaching People In Need</li>
+            <li>Reading War-Related Books</li>
+            </ul>
+            <h4>My Top 4 Songs</h4>
+            <ol type="1" id=Numberlist>
+                <li>Brave Shine</li>
+                <li>Reluctant Heros</li>
+                <li>Till I Collapse</li>
+                <li>Karma</li>
+            </ol>
+            <h5>My Favorite Quote</h5>
+            <p id="Quote"> "Know thy self, know thy enemy. A thousand battles, a thousand victories" by Sun Tzu</p>
+            <img id="minions" src="images/giphy.gif">
         </body>
     </html>
-    
+   

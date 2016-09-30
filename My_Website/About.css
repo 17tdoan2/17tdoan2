@@ -3,3 +3,85 @@ table{
     Margin-right:auto;
     Text-align:left;
     Border-collapse:collapse;
+}
+divcontainer {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    color: red;
+    background-color: Blue;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+			
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+#Link {
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {text-align: center;
+}
+h5 {text-align: center;
+}
+#MyAvatar{
+     display: block;
+     margin: auto;
+}
+#Quote{
+    text-align: center;
+}
+#minions{
+     display: block;
+     margin: auto;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #d1ccbd;
+}
+th{
+    border: 1px solid black;
+    text-align: center;
+    width: 240px;
+    height: 25px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    height: 25px;
+}
+#period{
+    color: red;
+}
+#classes{
+    color: red;
+}
